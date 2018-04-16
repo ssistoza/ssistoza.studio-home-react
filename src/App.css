@@ -1,0 +1,67 @@
+/**
+ See index.css for other css that can be applied to any.
+**/
+
+/** 
+  Full-Height Requirement for Landing page.
+**/
+html, body, #root {
+	height: 100%;
+}
+
+/**  
+ BACKSPLASH 
+  - Sets the background image to the behind athe application. 
+**/
+#bg-img {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: -1;
+	opacity: 0.9;
+}
+
+/**
+ MENUBUTTON
+ - Keep in front always.
+ - onClick.
+**/
+.menu-button {
+	position: fixed;
+	margin-top: 10px;
+	margin-left: 10px;
+	z-index: 2;
+}
+
+/**
+ CENTERING for landing.
+**/
+.landing-center {
+	height: 100%;
+	margin-bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 0;
+}
+
+.landing-text {
+	color: white;
+	font-size: 10vw;
+}
+
+/**
+MENU BAR
+**/
+.menubar.open {
+	left: 0;
+}
+
+.menubar {
+	position: absolute;
+  	top: 0px;
+  	left: -300px;
+  	height: 100%;
+  	width: 300px;
+  	transition: left .3s ease-in-out;
+}
