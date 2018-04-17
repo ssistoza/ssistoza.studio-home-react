@@ -26,7 +26,9 @@
   /* General sidebar styles */
   .bm-menu {
     background: #373a47;
-    padding: 2.5em 1.5em 0;
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-right: 1em; 
     font-size: 1.15em;
   }
   
@@ -44,4 +46,8 @@
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.3);
+  }
+
+  nav {
+    background: #373a47;
   }

@@ -1,7 +1,11 @@
-import React from 'react';
+import React from "react";
 
-const NotFound = (props) => {
-  return ( <h1>Page Not Found</h1> );
-}
+const NotFound = props => {
+  return (
+    <div className="landing-center">
+      <h1 className="landing-text">Page Not Found</h1>
+    </div>
+  );
+};
 
 export default NotFound;
